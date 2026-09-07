@@ -1,0 +1,224 @@
+{
+  "sourceRepository": "MAS-32/mas-personal-site",
+  "sourcePR": 6,
+  "sourceBranch": "main",
+  "sourceCommit": "d07d3c2b31a164557cdccd3af3aed3e6a4e4da7f",
+  "buildCommand": "npm ci && npm test && npm run build",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app.js",
+      "bytes": 4424,
+      "sha256": "b28f26e56a813573c98fe8bbccd86b925aacd9e773d95dfc85fe8d99f0dca84a"
+    },
+    {
+      "path": "assets/conversation-01.jpg",
+      "bytes": 86736,
+      "sha256": "0eec23150ab8e9b930f849c548e5ac9f8dc7db36c8a6242bdc6593b0259bf5df"
+    },
+    {
+      "path": "assets/conversation-02.jpg",
+      "bytes": 233141,
+      "sha256": "112e0ada3bdbe422cee8449d3cd7b51d31a5e558295729eb575fb4b5f6c42db4"
+    },
+    {
+      "path": "assets/conversation-03.jpg",
+      "bytes": 342866,
+      "sha256": "8540581cd54f9aca004741c1a01425fc9f1ce5dc18f511d079b5458174b48ca2"
+    },
+    {
+      "path": "assets/conversation-04.jpg",
+      "bytes": 129053,
+      "sha256": "993ed89dbe75a6858fed5cfd6fda59f2ae7f52bf84eb2eeff1f89e7756078da3"
+    },
+    {
+      "path": "assets/debate-certificate-original.jpg",
+      "bytes": 602745,
+      "sha256": "51dc27127b65663a69c17175c031ca889560c2705c53a9a89ca349b2e49f07cd"
+    },
+    {
+      "path": "assets/debate-cover.jpg",
+      "bytes": 204742,
+      "sha256": "fca4438d20b7e4a207d2a014a5cb07a90bae9a838d37b77a58dd90d7537e8546"
+    },
+    {
+      "path": "assets/debate-group.jpg",
+      "bytes": 1291986,
+      "sha256": "fec2c771f30dafa3c46b8ca78b8677f4eb1af07c76a29ee5e0a0393b7d55a19d"
+    },
+    {
+      "path": "assets/debate-scene.jpg",
+      "bytes": 429529,
+      "sha256": "407f4cede7c6816723a944de72309a3a8a373e70779c13269b0f8fba4b359d2c"
+    },
+    {
+      "path": "assets/debate.jpg",
+      "bytes": 533165,
+      "sha256": "caf581b39332136693236366ee815cf088774d061f587de54fa9cd62a8100871"
+    },
+    {
+      "path": "assets/hackathon-award.png",
+      "bytes": 316081,
+      "sha256": "88ea672e4fa76fa6027586fb704a9bbc202646ce291006c8fbbd48fd7f544bb2"
+    },
+    {
+      "path": "assets/hackathon.png",
+      "bytes": 1838715,
+      "sha256": "52659a09311ba61b2d99cbed00507421680d3040ccb1ecbb1442a391442f4f55"
+    },
+    {
+      "path": "assets/market-scene-1.jpg",
+      "bytes": 318355,
+      "sha256": "1d56e6316c362e54041453f40806f05e395eea070888d3eda8e1bb8106a5bd30"
+    },
+    {
+      "path": "assets/market-scene-2.jpg",
+      "bytes": 343626,
+      "sha256": "84ec9abc6ba77412a4858e836c6352b489836766d17a6208a13d91c7e7a96949"
+    },
+    {
+      "path": "assets/market.jpg",
+      "bytes": 532921,
+      "sha256": "65ab1b99050542432452b5ca561f7de9bd239e71f07eae28afab819d5ed8b31f"
+    },
+    {
+      "path": "assets/mas-character-cutout.png",
+      "bytes": 1587942,
+      "sha256": "1805732e702357ba5a90056b31ec2eed69ef00a31156020e29d6cb6a3e5866fa"
+    },
+    {
+      "path": "assets/mas-reference.jpg",
+      "bytes": 113705,
+      "sha256": "e16df183d054d1a2fa902ac51de1c1f0dfb0a4695ca4f870455bd66bb7c48a04"
+    },
+    {
+      "path": "assets/reading-cover.jpg",
+      "bytes": 978832,
+      "sha256": "d226b52e84791dcbea000b626f3fa29f214d431bed3834a99c6436aadba2a207"
+    },
+    {
+      "path": "assets/reading-late-august.jpg",
+      "bytes": 479242,
+      "sha256": "c4b694513107e29ac21427f2c4dbe49a4db143c4f833e8f4c930c1f3eaa816f4"
+    },
+    {
+      "path": "assets/reading-mid-august.jpg",
+      "bytes": 440125,
+      "sha256": "6fc9fec9e5be94553d9f32cd1a3f9e4cc8b2aaf5f8085d024dd184b6e967d4f8"
+    },
+    {
+      "path": "assets/run-cover.jpg",
+      "bytes": 720818,
+      "sha256": "41617d7f78e57859c3effc1d0f7dfcf41753123c7c6f07ca18a0fb6861fcaf7f"
+    },
+    {
+      "path": "assets/run-distance.jpg",
+      "bytes": 161659,
+      "sha256": "4e019a1173f2de1f328bc987ea18861793d8ff8ea97ac72c4b631390780381fd"
+    },
+    {
+      "path": "assets/run-training.jpg",
+      "bytes": 538783,
+      "sha256": "14ae4d1163ef001edf77d68cced44a7a4048023c918b235372336fc14872bc97"
+    },
+    {
+      "path": "assets/speech-excerpt.jpg",
+      "bytes": 286417,
+      "sha256": "2fa6af75772a8c1522a47683a3770d3abb18a3593766459114e72f19548ef57e"
+    },
+    {
+      "path": "assets/speech.jpg",
+      "bytes": 84460,
+      "sha256": "387362f88e630c013f9ebda25a33748f63f4eeba78c3ee45d824d1ef24274a8e"
+    },
+    {
+      "path": "assets/video-hackathon.jpg",
+      "bytes": 2329902,
+      "sha256": "44cffbc5c26e520254807c8369acdce2d2512d578643397735746d045c6bbe54"
+    },
+    {
+      "path": "assets/video-half-marathon.jpg",
+      "bytes": 2323582,
+      "sha256": "449b4f451f00efe990f33b5a8ff9490f35d1e6ebbbf4361d4c91760cdd477217"
+    },
+    {
+      "path": "assets/video-qr.jpg",
+      "bytes": 91298,
+      "sha256": "732d7b6de27f38ff3a3a15d9e5d5d8300fd46bcf054669bcf9f46cbb9b872a0c"
+    },
+    {
+      "path": "assets/video-subconscious.jpg",
+      "bytes": 1843680,
+      "sha256": "0366276ed8351121268f25238b5fff954661e6acba851f73e86b017f66285263"
+    },
+    {
+      "path": "assets/wechat-avatar.jpg",
+      "bytes": 3713,
+      "sha256": "67f69aceb983d6de3830ea380e6b4905caee11b5b2532bcb32876317afac7848"
+    },
+    {
+      "path": "assets/wechat-personal-qr.png",
+      "bytes": 145904,
+      "sha256": "1038910374f3d4db1a2bc8699ced426076d8b208aeee17acdd4a081203c82647"
+    },
+    {
+      "path": "elastic-cursor.mjs",
+      "bytes": 12540,
+      "sha256": "3ff37ca05ca54bff21af5e0fac195b9129ffac7d7dc976aa6332ddd8bbc6b76c"
+    },
+    {
+      "path": "greetings.mjs",
+      "bytes": 1530,
+      "sha256": "3d7dc7eed18e6cd21b7e61157be7d32003f3bede09c70eabd453deed693a864d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 35172,
+      "sha256": "de079aa2ab88edd9ee674720cab3ac3e0395b6bef9e3f2ef3f222208cb27e140"
+    },
+    {
+      "path": "intro.mjs",
+      "bytes": 4859,
+      "sha256": "03e105e5e7d4d3dc46b3d9e8ab277f88735c8e342f003feb6dbbd7349c7c5f35"
+    },
+    {
+      "path": "page-interactions.mjs",
+      "bytes": 3853,
+      "sha256": "92ebeeebca2b91c7e415f253c3bd02f47e0b4980bf6ef5f903cdcc4809f8024a"
+    },
+    {
+      "path": "particles.mjs",
+      "bytes": 2209,
+      "sha256": "55e91b47408581787e649b56048a3d26d42075c8a8f7847bfda8296de6f1c3cf"
+    },
+    {
+      "path": "records.mjs",
+      "bytes": 6350,
+      "sha256": "8a222bd7cf19f7fb46b510f5fded67ad3be95ece1aab7f28830f69fe983c43ca"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 55356,
+      "sha256": "18c294b2d84d17ef9893393ea6ee71edee2dc1ffa0d24da9c58f7be7966daee7"
+    },
+    {
+      "path": "vendor/LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    }
+  ]
+}
