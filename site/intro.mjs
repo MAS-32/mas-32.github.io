@@ -7,8 +7,9 @@ const sleep=(ms,signal)=>new Promise(resolve=>{
 });
 
 export function setupIntro(motionEnabled){
- const home=document.querySelector('#home');
- const requestedHash=location.hash;
+ // Opening or refreshing the site always starts at the cover; in-page links
+ // still update the hash and navigate normally after the intro.
+ if(location.hash)history.replaceState(history.state,'',location.pathname+location.search);
  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
  let controller=null,stage=null,running=false;
 
@@ -40,12 +41,7 @@ export function setupIntro(motionEnabled){
   document.body.classList.remove('intro-playing');
   document.body.style.removeProperty('overflow');
   document.querySelector('#main').removeAttribute('aria-busy');
-  let destination=null;
-  if(requestedHash&&requestedHash!=='#home'){
-   try{destination=document.getElementById(decodeURIComponent(requestedHash.slice(1)));}catch{}
-  }
-  if(destination)destination.scrollIntoView({block:'start'});
-  else window.scrollTo({top:0,left:0,behavior:'instant'});
+  window.scrollTo({top:0,left:0,behavior:'instant'});
  }
 
  async function exitCurtain(signal,quick=false){
