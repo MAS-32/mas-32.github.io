@@ -1,8 +1,8 @@
 {
   "sourceRepository": "MAS-32/mas-personal-site",
-  "sourcePR": 7,
+  "sourcePR": 8,
   "sourceBranch": "main",
-  "sourceCommit": "29519020a647609bb0e9054a3f691e1312c36ef6",
+  "sourceCommit": "c930fa85f40329da97e7600d40edc890065a089f",
   "buildCommand": "npm ci && npm test && npm run build",
   "files": [
     {
@@ -182,8 +182,8 @@
     },
     {
       "path": "intro.mjs",
-      "bytes": 4859,
-      "sha256": "03e105e5e7d4d3dc46b3d9e8ab277f88735c8e342f003feb6dbbd7349c7c5f35"
+      "bytes": 4771,
+      "sha256": "d21cd6b97e325186ab14689d5009623d8d5fff879a4af04f19cc7622f8d9ecf8"
     },
     {
       "path": "page-interactions.mjs",
