@@ -1,8 +1,8 @@
 {
   "sourceRepository": "MAS-32/mas-personal-site",
-  "sourcePR": 10,
+  "sourcePR": 11,
   "sourceBranch": "main",
-  "sourceCommit": "5a958ce93b5d5dbaa04909c8178804d81cdb3544",
+  "sourceCommit": "1c39d1644a4e2e5006901a59dfb4c5f71114fbfc",
   "buildCommand": "npm ci && npm test && npm run build",
   "files": [
     {
@@ -212,8 +212,8 @@
     },
     {
       "path": "styles.css",
-      "bytes": 57073,
-      "sha256": "706e1cfee1fee299056420cbeff5448ba94a50c376ea2d0e9a7ba39333306388"
+      "bytes": 57248,
+      "sha256": "ee1401d01dda240dead32aec4de14e0d7936ec8b5e4572c26ddb8b90978f4ea5"
     },
     {
       "path": "vendor/LICENSE.txt",
