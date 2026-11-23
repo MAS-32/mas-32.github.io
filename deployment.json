@@ -1,8 +1,8 @@
 {
   "sourceRepository": "MAS-32/mas-personal-site",
-  "sourcePR": 8,
+  "sourcePR": 9,
   "sourceBranch": "main",
-  "sourceCommit": "c930fa85f40329da97e7600d40edc890065a089f",
+  "sourceCommit": "b159407d50aac61e2f912131494f915e312c4a24",
   "buildCommand": "npm ci && npm test && npm run build",
   "files": [
     {
@@ -14,6 +14,16 @@
       "path": "app.js",
       "bytes": 4424,
       "sha256": "b28f26e56a813573c98fe8bbccd86b925aacd9e773d95dfc85fe8d99f0dca84a"
+    },
+    {
+      "path": "assets/assistant-capabilities.jpg",
+      "bytes": 623548,
+      "sha256": "7569900e6a5e17319a459bcc6bab6c02847cf26bb503adc4b54118a019e94ba8"
+    },
+    {
+      "path": "assets/assistant-introduction.jpg",
+      "bytes": 170384,
+      "sha256": "9bca1ba2549f9a2ef2a1038552baf3b3f831a6bde3f02cbb292ba6e390b3a711"
     },
     {
       "path": "assets/conversation-01.jpg",
@@ -177,8 +187,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 36359,
-      "sha256": "82254e4210d4c3a58481deb26d812123a24ea8cd7f93e0d493f3b71b8a8aee38"
+      "bytes": 37476,
+      "sha256": "7272828a7c6946a22141940ae06b9220ebc675a94fe2a37757cf70704db9020b"
     },
     {
       "path": "intro.mjs",
@@ -202,8 +212,8 @@
     },
     {
       "path": "styles.css",
-      "bytes": 56400,
-      "sha256": "7f75b17d6e600a58539fff0f8f0c73f03f852f478de93bc86b044687f6271f93"
+      "bytes": 57274,
+      "sha256": "d496756cf058b393d84624666814d0040dc26a6c45439304b152c645ab7cf31a"
     },
     {
       "path": "vendor/LICENSE.txt",
