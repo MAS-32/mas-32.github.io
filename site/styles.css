@@ -472,3 +472,4 @@ dialog{max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px - env(safe-ar
 .record-card.assistant-image .photo-open{background:#1b1e21;color:var(--ink);transition:background-color .22s var(--ease),color .22s var(--ease)}
 .record-card.assistant-image:focus-visible .photo-open{background:var(--ink);color:var(--bg)}
 @media(hover:hover) and (pointer:fine){.record-card.assistant-image:hover .photo-open{background:var(--ink);color:var(--bg)}}
+.assistant-gallery{grid-template-columns:1fr;max-width:560px}
