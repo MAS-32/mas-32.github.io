@@ -468,3 +468,7 @@ dialog{max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px - env(safe-ar
 .record-card.assistant-image{display:block;width:100%;padding:0;text-align:left}
 .record-card.assistant-image img{width:auto;height:auto;max-width:100%;max-height:600px;aspect-ratio:auto;object-fit:contain;margin-inline:auto}
 @media(max-width:760px){.ai-project h3{font-size:34px}.ai-project p{font-size:17px}.record-card.assistant-image img{max-height:520px}}
+/* Keep the image action quiet until the card is hovered or keyboard-focused. */
+.record-card.assistant-image .photo-open{background:#1b1e21;color:var(--ink);transition:background-color .22s var(--ease),color .22s var(--ease)}
+.record-card.assistant-image:focus-visible .photo-open{background:var(--ink);color:var(--bg)}
+@media(hover:hover) and (pointer:fine){.record-card.assistant-image:hover .photo-open{background:var(--ink);color:var(--bg)}}
